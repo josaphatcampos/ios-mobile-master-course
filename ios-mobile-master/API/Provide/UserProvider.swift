@@ -32,13 +32,11 @@ class UserProvider: UserProviderProtocol{
         let body: NSDictionary = parameters[Constants.ParametersKeys.body] as! NSDictionary
         let userModel = body[Constants.ParametersKeys.userModel] as! UserModel
         
-        self.auth.createUser(withEmail: userModel.email, password: userModel.password){
-            (result, error) in {
-                if let error = error{
-                    completionHandler(.failure(error))
-                }else{
-                    completionHandler(.success(userModel))
-                }
+        self.auth.createUser(withEmail: userModel.email, password: userModel.password) { (result, error) in
+            if let error = error{
+                completionHandler(.failure(error))
+            }else{
+                completionHandler(.success(userModel))
             }
         }
     }
