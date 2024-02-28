@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D19BA6A2B8F76D5004C045D /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA692B8F76D5004C045D /* RegisterPresenter.swift */; };
 		4D98DF7E2B8C9A3500AB9F5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D98DF7D2B8C9A3500AB9F5A /* GoogleService-Info.plist */; };
 		4D98DF852B8CA5CA00AB9F5A /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DF842B8CA5CA00AB9F5A /* UserProvider.swift */; };
 		4D98DF882B8CA66700AB9F5A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DF872B8CA66700AB9F5A /* UserModel.swift */; };
@@ -16,6 +17,7 @@
 		4D98DF972B8CB3C900AB9F5A /* ios_mobile_masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DF962B8CB3C900AB9F5A /* ios_mobile_masterTests.swift */; };
 		4DA5D6B92B8E1A3700F2B7DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5D6B82B8E1A3700F2B7DA /* LoginViewController.swift */; };
 		4DA5D6BB2B8F4F3700F2B7DA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA5D6BA2B8F4F3700F2B7DA /* RegisterViewController.swift */; };
+		4DF88C7F2B8F6F0C00AB6E64 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF88C7E2B8F6F0C00AB6E64 /* LoginPresenter.swift */; };
 		4DFA39972B8C99230024A6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA39962B8C99230024A6EC /* AppDelegate.swift */; };
 		4DFA39992B8C99230024A6EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA39982B8C99230024A6EC /* SceneDelegate.swift */; };
 		4DFA399B2B8C99230024A6EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA399A2B8C99230024A6EC /* HomeViewController.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D19BA692B8F76D5004C045D /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
 		4D98DF7D2B8C9A3500AB9F5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4D98DF842B8CA5CA00AB9F5A /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
 		4D98DF872B8CA66700AB9F5A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		4D98DF962B8CB3C900AB9F5A /* ios_mobile_masterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_mobile_masterTests.swift; sourceTree = "<group>"; };
 		4DA5D6B82B8E1A3700F2B7DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4DA5D6BA2B8F4F3700F2B7DA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4DF88C7E2B8F6F0C00AB6E64 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		4DFA39932B8C99230024A6EC /* ios-mobile-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-mobile-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFA39962B8C99230024A6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DFA39982B8C99230024A6EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D19BA6B2B8F76E7004C045D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4DFA399A2B8C99230024A6EC /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		4D98DF7F2B8CA41E00AB9F5A /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4D19BA6B2B8F76E7004C045D /* Home */,
+				4DF88C7D2B8F5A3800AB6E64 /* Register */,
+				4DF88C7C2B8F599600AB6E64 /* Login */,
 				4DFA39962B8C99230024A6EC /* AppDelegate.swift */,
 				4DFA39982B8C99230024A6EC /* SceneDelegate.swift */,
 				4DFA399C2B8C99230024A6EC /* Main.storyboard */,
@@ -149,14 +164,22 @@
 			path = "ios-mobile-masterTests";
 			sourceTree = "<group>";
 		};
-		4DA5D6B72B8E19F900F2B7DA /* Controllers */ = {
+		4DF88C7C2B8F599600AB6E64 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				4DFA399A2B8C99230024A6EC /* HomeViewController.swift */,
 				4DA5D6B82B8E1A3700F2B7DA /* LoginViewController.swift */,
-				4DA5D6BA2B8F4F3700F2B7DA /* RegisterViewController.swift */,
+				4DF88C7E2B8F6F0C00AB6E64 /* LoginPresenter.swift */,
 			);
-			path = Controllers;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4DF88C7D2B8F5A3800AB6E64 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				4DA5D6BA2B8F4F3700F2B7DA /* RegisterViewController.swift */,
+				4D19BA692B8F76D5004C045D /* RegisterPresenter.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		4DFA398A2B8C99230024A6EC = {
@@ -182,7 +205,6 @@
 		4DFA39952B8C99230024A6EC /* ios-mobile-master */ = {
 			isa = PBXGroup;
 			children = (
-				4DA5D6B72B8E19F900F2B7DA /* Controllers */,
 				4D98DF892B8CA96900AB9F5A /* Infrastructure */,
 				4D98DF7F2B8CA41E00AB9F5A /* Source */,
 				4D98DF802B8CA42D00AB9F5A /* API */,
@@ -367,8 +389,10 @@
 				4DA5D6BB2B8F4F3700F2B7DA /* RegisterViewController.swift in Sources */,
 				4DFA399B2B8C99230024A6EC /* HomeViewController.swift in Sources */,
 				4DFA39972B8C99230024A6EC /* AppDelegate.swift in Sources */,
+				4DF88C7F2B8F6F0C00AB6E64 /* LoginPresenter.swift in Sources */,
 				4DFA39992B8C99230024A6EC /* SceneDelegate.swift in Sources */,
 				4D98DF882B8CA66700AB9F5A /* UserModel.swift in Sources */,
+				4D19BA6A2B8F76D5004C045D /* RegisterPresenter.swift in Sources */,
 				4D98DF852B8CA5CA00AB9F5A /* UserProvider.swift in Sources */,
 				4D98DF8B2B8CA9BC00AB9F5A /* Constants.swift in Sources */,
 				4D98DF8F2B8CAE4600AB9F5A /* UserManager.swift in Sources */,

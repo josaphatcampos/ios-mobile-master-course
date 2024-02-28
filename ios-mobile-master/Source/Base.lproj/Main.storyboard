@@ -24,7 +24,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="dDu-qM-HCc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W5i-9B-SuK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dDu-qM-HCc" secondAttribute="trailing" id="WqK-QA-2WY"/>
@@ -40,7 +40,7 @@
         <!--Login View Controller-->
         <scene sceneID="X9T-ba-Drh">
             <objects>
-                <viewController id="I55-A3-voA" customClass="LoginViewController" customModule="ios_mobile_master" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginViewController" id="I55-A3-voA" customClass="LoginViewController" customModule="ios_mobile_master" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sTO-bI-oT1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="pxT-WO-FpY"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
                                 <connections>
@@ -88,7 +88,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="eoS-iH-2b7"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Register"/>
                                 <connections>
@@ -168,7 +168,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="0vf-CF-2MW"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Register"/>
                                 <connections>
@@ -213,7 +213,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="QLh-Nu-Ahh"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
                                 <connections>
@@ -265,8 +265,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

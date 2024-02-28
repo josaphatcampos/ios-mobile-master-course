@@ -9,6 +9,8 @@ import UIKit
 
 class RegisterViewController: UIViewController {
     
+    let presenter:RegisterPresenter = RegisterPresenter()
+    
     @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
@@ -23,18 +25,8 @@ class RegisterViewController: UIViewController {
                 return
             }
             
-            let manager = UserManager(business: UserBusiness())
-            
-            manager.register(email: email, password: password) { userModel in
-                
-                let homeView = self.storyboard?.instantiateViewController(withIdentifier: "homeViewController") as! HomeViewController
-                homeView.modalPresentationStyle = .fullScreen
-                self.present(homeView, animated: true)
-                
-            } failureHandler: { error in
-                self.showMessage(title: "Error", message: error.localizedDescription)
-            }
-
+            let userModel:UserModel = UserModel(email: email, password: password)
+            presenter.register(userModel: userModel)
         }
     }
     
@@ -42,7 +34,14 @@ class RegisterViewController: UIViewController {
         self.dismiss(animated: true)
     }
     
-    func showMessage(title:String, message:String){
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        presenter.delegate = self
+    }
+}
+
+extension RegisterViewController: RegisterPresenterDelegate{
+    func showMessage(title: String, message: String) {
         let alert:UIAlertController = UIAlertController(title:title, message:message, preferredStyle: .alert)
         
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertAction.Style.default, handler: nil))
@@ -50,7 +49,11 @@ class RegisterViewController: UIViewController {
         self.present(alert, animated: true)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    func goHome() {
+        let homeView = self.storyboard?.instantiateViewController(withIdentifier: "homeViewController") as! HomeViewController
+        homeView.modalPresentationStyle = .fullScreen
+        self.present(homeView, animated: true)
     }
+    
+    
 }
