@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D19BA962B90DFCD004C045D /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA902B90DFCD004C045D /* HomePresenter.swift */; };
+		4D19BA972B90DFCD004C045D /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA912B90DFCD004C045D /* HomeWorker.swift */; };
+		4D19BA982B90DFCD004C045D /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA922B90DFCD004C045D /* HomeRouter.swift */; };
+		4D19BA992B90DFCD004C045D /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA932B90DFCD004C045D /* HomeModels.swift */; };
+		4D19BA9A2B90DFCD004C045D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA942B90DFCD004C045D /* HomeViewController.swift */; };
+		4D19BA9B2B90DFCD004C045D /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA952B90DFCD004C045D /* HomeInteractor.swift */; };
+		4D19BA9D2B90F7A3004C045D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA9C2B90F7A3004C045D /* HomeView.swift */; };
+		4D19BAA42B90FEC6004C045D /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA9E2B90FEC6004C045D /* LoginPresenter.swift */; };
+		4D19BAA52B90FEC6004C045D /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BA9F2B90FEC6004C045D /* LoginWorker.swift */; };
+		4D19BAA62B90FEC6004C045D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAA02B90FEC6004C045D /* LoginRouter.swift */; };
+		4D19BAA72B90FEC6004C045D /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAA12B90FEC6004C045D /* LoginModels.swift */; };
+		4D19BAA82B90FEC6004C045D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAA22B90FEC6004C045D /* LoginViewController.swift */; };
+		4D19BAA92B90FEC6004C045D /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAA32B90FEC6004C045D /* LoginInteractor.swift */; };
+		4D19BAAB2B90FEE5004C045D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAAA2B90FEE5004C045D /* LoginView.swift */; };
+		4D19BAAE2B9101A5004C045D /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAAD2B9101A5004C045D /* UITextField+.swift */; };
+		4D19BAB52B9112E9004C045D /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAAF2B9112E9004C045D /* RegisterPresenter.swift */; };
+		4D19BAB62B9112E9004C045D /* RegisterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAB02B9112E9004C045D /* RegisterWorker.swift */; };
+		4D19BAB72B9112E9004C045D /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAB12B9112E9004C045D /* RegisterRouter.swift */; };
+		4D19BAB82B9112E9004C045D /* RegisterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAB22B9112E9004C045D /* RegisterModels.swift */; };
+		4D19BAB92B9112E9004C045D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAB32B9112E9004C045D /* RegisterViewController.swift */; };
+		4D19BABA2B9112E9004C045D /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19BAB42B9112E9004C045D /* RegisterInteractor.swift */; };
 		4D98DF7E2B8C9A3500AB9F5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D98DF7D2B8C9A3500AB9F5A /* GoogleService-Info.plist */; };
 		4D98DF852B8CA5CA00AB9F5A /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DF842B8CA5CA00AB9F5A /* UserProvider.swift */; };
 		4D98DF882B8CA66700AB9F5A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DF872B8CA66700AB9F5A /* UserModel.swift */; };
@@ -34,6 +55,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D19BA902B90DFCD004C045D /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		4D19BA912B90DFCD004C045D /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		4D19BA922B90DFCD004C045D /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		4D19BA932B90DFCD004C045D /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		4D19BA942B90DFCD004C045D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4D19BA952B90DFCD004C045D /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		4D19BA9C2B90F7A3004C045D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D19BA9E2B90FEC6004C045D /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		4D19BA9F2B90FEC6004C045D /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		4D19BAA02B90FEC6004C045D /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		4D19BAA12B90FEC6004C045D /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		4D19BAA22B90FEC6004C045D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4D19BAA32B90FEC6004C045D /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		4D19BAAA2B90FEE5004C045D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4D19BAAD2B9101A5004C045D /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		4D19BAAF2B9112E9004C045D /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		4D19BAB02B9112E9004C045D /* RegisterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterWorker.swift; sourceTree = "<group>"; };
+		4D19BAB12B9112E9004C045D /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		4D19BAB22B9112E9004C045D /* RegisterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModels.swift; sourceTree = "<group>"; };
+		4D19BAB32B9112E9004C045D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4D19BAB42B9112E9004C045D /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
 		4D98DF7D2B8C9A3500AB9F5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4D98DF842B8CA5CA00AB9F5A /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
 		4D98DF872B8CA66700AB9F5A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -74,6 +116,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D19BA8C2B90DE4D004C045D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4D19BA8F2B90DE73004C045D /* Home */,
+				4D19BA8E2B90DE65004C045D /* Register */,
+				4D19BA8D2B90DE5D004C045D /* Login */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4D19BA8D2B90DE5D004C045D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4D19BA9E2B90FEC6004C045D /* LoginPresenter.swift */,
+				4D19BA9F2B90FEC6004C045D /* LoginWorker.swift */,
+				4D19BAA02B90FEC6004C045D /* LoginRouter.swift */,
+				4D19BAA12B90FEC6004C045D /* LoginModels.swift */,
+				4D19BAA22B90FEC6004C045D /* LoginViewController.swift */,
+				4D19BAA32B90FEC6004C045D /* LoginInteractor.swift */,
+				4D19BAAA2B90FEE5004C045D /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4D19BA8E2B90DE65004C045D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				4D19BAAF2B9112E9004C045D /* RegisterPresenter.swift */,
+				4D19BAB02B9112E9004C045D /* RegisterWorker.swift */,
+				4D19BAB12B9112E9004C045D /* RegisterRouter.swift */,
+				4D19BAB22B9112E9004C045D /* RegisterModels.swift */,
+				4D19BAB32B9112E9004C045D /* RegisterViewController.swift */,
+				4D19BAB42B9112E9004C045D /* RegisterInteractor.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		4D19BA8F2B90DE73004C045D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4D19BA902B90DFCD004C045D /* HomePresenter.swift */,
+				4D19BA912B90DFCD004C045D /* HomeWorker.swift */,
+				4D19BA922B90DFCD004C045D /* HomeRouter.swift */,
+				4D19BA932B90DFCD004C045D /* HomeModels.swift */,
+				4D19BA942B90DFCD004C045D /* HomeViewController.swift */,
+				4D19BA952B90DFCD004C045D /* HomeInteractor.swift */,
+				4D19BA9C2B90F7A3004C045D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4D19BAAC2B910189004C045D /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				4D19BAAD2B9101A5004C045D /* UITextField+.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		4D98DF7F2B8CA41E00AB9F5A /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +234,7 @@
 		4D98DF892B8CA96900AB9F5A /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				4D19BAAC2B910189004C045D /* Extentions */,
 				4D98DF8A2B8CA9BC00AB9F5A /* Constants.swift */,
 			);
 			path = Infrastructure;
@@ -169,6 +271,7 @@
 		4DFA39952B8C99230024A6EC /* ios-mobile-master */ = {
 			isa = PBXGroup;
 			children = (
+				4D19BA8C2B90DE4D004C045D /* Scene */,
 				4D98DF892B8CA96900AB9F5A /* Infrastructure */,
 				4D98DF7F2B8CA41E00AB9F5A /* Source */,
 				4D98DF802B8CA42D00AB9F5A /* API */,
@@ -349,14 +452,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D19BAA42B90FEC6004C045D /* LoginPresenter.swift in Sources */,
 				4DFA399B2B8C99230024A6EC /* ViewController.swift in Sources */,
+				4D19BAA92B90FEC6004C045D /* LoginInteractor.swift in Sources */,
 				4DFA39972B8C99230024A6EC /* AppDelegate.swift in Sources */,
+				4D19BAA52B90FEC6004C045D /* LoginWorker.swift in Sources */,
 				4DFA39992B8C99230024A6EC /* SceneDelegate.swift in Sources */,
+				4D19BA9D2B90F7A3004C045D /* HomeView.swift in Sources */,
+				4D19BAB52B9112E9004C045D /* RegisterPresenter.swift in Sources */,
 				4D98DF882B8CA66700AB9F5A /* UserModel.swift in Sources */,
+				4D19BAB62B9112E9004C045D /* RegisterWorker.swift in Sources */,
+				4D19BAAB2B90FEE5004C045D /* LoginView.swift in Sources */,
+				4D19BAB72B9112E9004C045D /* RegisterRouter.swift in Sources */,
+				4D19BABA2B9112E9004C045D /* RegisterInteractor.swift in Sources */,
+				4D19BA992B90DFCD004C045D /* HomeModels.swift in Sources */,
+				4D19BAA82B90FEC6004C045D /* LoginViewController.swift in Sources */,
 				4D98DF852B8CA5CA00AB9F5A /* UserProvider.swift in Sources */,
 				4D98DF8B2B8CA9BC00AB9F5A /* Constants.swift in Sources */,
+				4D19BA962B90DFCD004C045D /* HomePresenter.swift in Sources */,
 				4D98DF8F2B8CAE4600AB9F5A /* UserManager.swift in Sources */,
+				4D19BAB82B9112E9004C045D /* RegisterModels.swift in Sources */,
+				4D19BA972B90DFCD004C045D /* HomeWorker.swift in Sources */,
+				4D19BAA72B90FEC6004C045D /* LoginModels.swift in Sources */,
 				4D98DF8D2B8CAB2F00AB9F5A /* UserBusiness.swift in Sources */,
+				4D19BAA62B90FEC6004C045D /* LoginRouter.swift in Sources */,
+				4D19BAB92B9112E9004C045D /* RegisterViewController.swift in Sources */,
+				4D19BA9A2B90DFCD004C045D /* HomeViewController.swift in Sources */,
+				4D19BAAE2B9101A5004C045D /* UITextField+.swift in Sources */,
+				4D19BA982B90DFCD004C045D /* HomeRouter.swift in Sources */,
+				4D19BA9B2B90DFCD004C045D /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
